@@ -86,7 +86,8 @@ class Cell{
 class Board{
 public:
   //  Cell  grids[9][9] ;
-    int N, domain[],nodeCount;
+    int N, nodeCount;
+    vector<int> domain;
     vector<vector<Cell> > grids;
     Board(vector<vector<Cell> > grids, int N)
     {
